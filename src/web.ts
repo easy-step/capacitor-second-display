@@ -7,4 +7,8 @@ export class SecondDisplayWeb extends WebPlugin implements SecondDisplayPlugin {
     console.log('ECHO', options);
     return options;
   }
+
+  async showOnSecondScreen(): Promise<void> {
+    throw this.unavailable('Second screen not available in web browser');
+  }
 }
