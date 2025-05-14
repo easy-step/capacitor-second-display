@@ -1,6 +1,6 @@
 {
   "name": "capacitor-second-display",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Capacitor-second-display is a custom plugin for Android to show web content on second displays of devices",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
